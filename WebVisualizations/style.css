@@ -17,12 +17,7 @@ body {
 }
 
 /* Change color on hover or active */
-a:hover, a:active {
-	background-color: #1abc9c;
-}
-
-
-* .visualization:hover {
+.visualization:hover {
 	border-color: #1abc9c;
 	border-style: solid;
 }
@@ -66,17 +61,14 @@ a:hover, a:active {
     padding-top: 5px; 
 }
 
-/* Reduce the Size of the Vizualization Tables */
+/* Reduce the Size of the Visualization Tables */
 .visualization{
     height: 50% !important;
 	width: 50% !important;
 }
 
-.visualization:active {
-	background-color: #1abc9c; 
-}
 
-  /* Style the Footer */
+/* Style the Footer */
 footer{
 	background-color: darkgray;
 	border-top-color: #1abc9c; 
@@ -99,4 +91,11 @@ footer{
 	  background-color: #1abc9c;
 	  width: 100%;
 	}
+}
+
+/* Clear out the Float so Content can stay within Box */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
