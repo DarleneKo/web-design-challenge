@@ -22,7 +22,6 @@ body {
 	border-style: solid;
 }
 
-
 .active {
 	border-color: #1abc9c;
 	border-style: solid; 
@@ -45,6 +44,7 @@ body {
 	margin-right: 20px;
 	min-height: 600px;
 	padding: 5px;
+	text-align: center;
 }
 
   /* White Box Background */
@@ -91,11 +91,4 @@ footer{
 	  background-color: #1abc9c;
 	  width: 100%;
 	}
-}
-
-/* Clear out the Float so Content can stay within Box */
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
 }
