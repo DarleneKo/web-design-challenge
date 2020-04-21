@@ -61,11 +61,18 @@ body {
 }
 
 /* Reduce the Size of the Visualization Tables */
-.visualization{
+.visualization {
     height: 50% !important;
 	width: 50% !important;
 }
 
+/* Style the Responsive Table for the Data Page */
+
+.table-responsive {
+	overflow-x: auto;
+	overflow-y: auto;
+	overflow-wrap: initial;
+}
 
 /* Style the Footer */
 footer{
