@@ -16,12 +16,13 @@ body {
     padding: 10px; 
 }
 
-/* Change color on hover or active */
+/* Change color on hover */
 .visualization:hover {
 	border-color: #1abc9c;
 	border-style: solid;
 }
 
+/* Change color on active */
 .active {
 	border-color: #1abc9c;
 	border-style: solid; 
