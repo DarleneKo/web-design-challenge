@@ -63,8 +63,8 @@ body {
 
 /* Reduce the Size of the Visualization Tables */
 .visualization {
-    height: 50% !important;
-	width: 50% !important;
+    height: 100% !important;
+	width: 100% !important;
 }
 
 /* Style the Responsive Table for the Data Page */
